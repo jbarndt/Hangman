@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class EvilHangman extends FairHangman {
+public class EvilHangman extends BaseHangman {
 
     Map<String, List> patternMap = new HashMap<>();
     List<String> narrowDict = new ArrayList<>();
