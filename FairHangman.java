@@ -1,9 +1,11 @@
-import java.util.*;
-import java.io.*;
-
+/**
+ * CS 251 Lab 6 - EvilHangman
+ * @author Jonathan Barndt
+ * @version date 2016-04-04
+ * The fair implementation of Hangman that extends BaseHangman.
+ */
 public class FairHangman extends BaseHangman{
 
-    //constructor
     public FairHangman (String filename) {convertFile(filename);}
 
     @Override

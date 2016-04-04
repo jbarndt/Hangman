@@ -1,3 +1,9 @@
+/**
+ * CS 251 Lab 6 - EvilHangman
+ * @author Jonathan Barndt
+ * @version date 2016-04-04
+ * The evil implementation of Hangman that extends BaseHangman.
+ */
 import java.util.*;
 
 public class EvilHangman extends BaseHangman {

@@ -2,11 +2,13 @@ import java.io.*;
 import java.util.*;
 
 /**
- * Created by Jon on 3/23/16.
+ * CS 251 Lab 6 - BaseHangman
+ * @author Jonathan Barndt
+ * @version date 2016-04-04
+ * An abstract class that takes all the common global variables and methods
+ * of the EvilHangman and FairHangman classes, and also implements HangmanGame.
  */
 public abstract class BaseHangman implements HangmanGame{
-
-    public BaseHangman(){}
 
     //global variables
     public int guesses;
